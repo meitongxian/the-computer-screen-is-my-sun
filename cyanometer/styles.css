@@ -75,3 +75,46 @@ canvas {
             #1A1818 0 calc(53*1.8868%)
         );
 }
+
+.info-wrapper {
+  position: absolute;
+  font-family: Arial, sans-serif;
+  color: white;
+  font-size: 14px;
+  line-height: 19px;
+  width: 290px;
+  bottom: 0;
+  margin: 1rem;
+  z-index: 1000;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.info-toggle {
+  background: none; 
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  color: inherit;
+  font-family: inherit;
+}
+
+.info-toggle:hover {
+    text-decoration: underline;
+}
+
+a {
+  color: inherit;
+  font-family: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+.hide {
+  display: none;
+}

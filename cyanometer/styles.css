@@ -16,7 +16,8 @@ canvas {
 }
 
 .colours {
-    height: 100vh;
+    height: 100vh; /*fallback if no custom properties support*/
+    height: calc(var(--vh, 1vh) * 100);
     overflow: hidden;
     background:
         conic-gradient(

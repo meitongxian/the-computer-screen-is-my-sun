@@ -118,3 +118,19 @@ a:visited {
 .hide {
   display: none;
 }
+
+.circle {
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+.number {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-family: Arial, sans-serif;
+  color: white;
+  mix-blend-mode: difference;
+  font-size: 14px;
+  line-height: 19px;
+}

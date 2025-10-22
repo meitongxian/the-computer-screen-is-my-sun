@@ -83,8 +83,8 @@ canvas {
   font-size: 14px;
   line-height: 19px;
   width: 290px;
-  bottom: 0;
-  margin: 1rem;
+  bottom: 1rem;
+  left: 1rem;
   z-index: 1000;
 }
 
